@@ -1,7 +1,7 @@
 # Distilbert
 Advertisement Classification by Distilbert and Tensorflow
 
-used library and version
+# used library and version
 
 huggingface-hub==0.5.1
 
@@ -43,7 +43,7 @@ tokenizers==0.12.1
 
 transformers==4.18.0
 
-To run, install
+# To run, install
 
 pip install pandas
 
