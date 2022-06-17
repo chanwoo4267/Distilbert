@@ -12,10 +12,10 @@ by team 네츄럴, 20171645 parkchanwoo
 # To run
 distilbert.py and twitter.csv file must exist same path
 
--pip install pandas
--pip install tensorflow
--pip install tensorflow.keras
--pip install transformers
--pip install pickle
+- pip install pandas
+- pip install tensorflow
+- pip install tensorflow.keras
+- pip install transformers
+- pip install pickle
 
--python distilbert.py
+- python distilbert.py
