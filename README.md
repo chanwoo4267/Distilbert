@@ -1,56 +1,21 @@
-# Distilbert
+# Capston Design 1 - Distilbert fine-tuning
 Advertisement Classification by Distilbert and Tensorflow
+by team 네츄럴, 20171645 parkchanwoo
 
-# used library and version
+## description
+- fine-tuning "distilbert-base-uncased" by twitter dataset
+- 1500+ tweets including top 10 coins keywords
+- BATCH_SIZE = 2
+- EPOCH_NUM = 10
+- save fine-tuned model to "./adv_model"
 
-huggingface-hub==0.5.1
+# To run
+distilbert.py and twitter.csv file must exist same path
 
-keras==2.8.0
+-pip install pandas
+-pip install tensorflow
+-pip install tensorflow.keras
+-pip install transformers
+-pip install pickle
 
-Keras-Preprocessing==1.1.2
-
-pandas==1.3.5
-
-tensorboard==2.8.0
-
-tensorboard-data-server==0.6.1
-
-tensorboard-plugin-wit==1.8.1
-
-tensorflow==2.8.0
-
-tensorflow-addons==0.16.1
-
-tensorflow-datasets==4.5.2
-
-tensorflow-hub==0.12.0
-
-tensorflow-io-gcs-filesystem==0.25.0
-
-tensorflow-metadata==1.8.0
-
-tensorflow-model-optimization==0.7.2
-
-tensorflow-text==2.8.2
-
-tf-estimator-nightly==2.8.0.dev2021122109
-
-tf-models-official==2.8.0
-
-tf-slim==1.1.0
-
-tokenizers==0.12.1
-
-transformers==4.18.0
-
-# To run, install
-
-pip install pandas
-
-pip install tensorflow
-
-pip install tensorflow.keras
-
-pip install transformers
-
-pip install pickle
+-python distilbert.py
